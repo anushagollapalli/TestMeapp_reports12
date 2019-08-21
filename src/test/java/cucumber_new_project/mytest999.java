@@ -45,6 +45,7 @@ String actual="SignOut";
 	
 	 Assert.assertEquals(expected,actual);
 	 driver.findElement(By.xpath("//*[@id=\\\"header\\\"]/div[1]/div/div/div[2]/div/ul/a")).click();
+	 driver.close();
     // Write code here that turns the phrase above into concrete actions
    // throw new cucumber.api.PendingException();
 }
